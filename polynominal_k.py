@@ -45,7 +45,7 @@ def get_equation_terms(pln_ind, pln_var):
  
 
 def create_file(text):
-    """Принимает имя и создаёт файл с этим именем.
+    """Принимает текст и создаёт файл с этим текстом.
     """
     name = input('Задайте путь к файлу: ')
     with open(name, 'w') as f:
